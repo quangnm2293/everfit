@@ -1,0 +1,21 @@
+#root {
+	max-width: 1280px;
+	padding: 2rem;
+	background-color: white;
+	margin: 0 auto;
+}
+
+.container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 10px;
+}
+.name-date {
+	color: #6a7988;
+	font-family: Open Sans;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}

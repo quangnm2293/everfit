@@ -1,0 +1,111 @@
+.day {
+	color: #728096;
+	font-family: Open Sans;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.item {
+	background-color: #f3f5f8;
+	border-radius: 3px;
+	min-height: 80vh;
+	padding: 10px 7px;
+	opacity: 0.8017;
+}
+.test {
+	min-height: 300px;
+}
+.workout-container {
+	border-radius: 6px;
+	border: 1px solid rgba(34, 36, 38, 0.15);
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2px;
+	margin-bottom: 5px;
+}
+.workout-title-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 7px;
+}
+.workout-title {
+	color: #5a57cb;
+	font-family: Open Sans;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	width: 110px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.exercise-container {
+	border-radius: 3px;
+	border: 1px solid #dfdfdf;
+	background: #fff;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+	padding: 6px;
+	margin-bottom: 4px;
+}
+.exercise-title {
+	color: #000;
+	text-align: right;
+	font-family: Open Sans;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	width: 100px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-left: 30px;
+}
+.exercise-information {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.info {
+	color: #95a6b7;
+	text-align: right;
+	font-family: Open Sans;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 80px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-left: 30px;
+}
+.time {
+	color: #919cad;
+	text-align: right;
+	font-family: Open Sans;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.icon {
+	display: flex;
+	justify-content: right;
+	padding: 3px 0;
+}
+.current-day {
+	color: #5a57cb;
+	font-family: Open Sans;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
